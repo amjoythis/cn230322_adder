@@ -8,7 +8,7 @@ format:
 	python -m black *.py
 
 lint:
-	#python -m pylint code.py --disable=R,C
+	# python -m pylint code.py --disable=R,C
 	#python -m flake8 code.py --exit-zero
 	python -m flake8 code.py
 
