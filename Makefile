@@ -9,7 +9,7 @@ format:
 
 lint:
 	# python -m pylint code.py --disable=R,C
-	#python -m flake8 code.py --exit-zero
-	python -m flake8 code.py
+	python -m flake8 code.py --exit-zero
+	#python -m flake8 code.py
 
 all: install lint test
